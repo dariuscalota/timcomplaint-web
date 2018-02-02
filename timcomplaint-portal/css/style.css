@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-inverse {
+  background-color: rgba(0,0,0,.7);
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+}
+
+.chartDiv {
+    max-height: 150px;
+    width:auto;
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 9 !important;
+}
